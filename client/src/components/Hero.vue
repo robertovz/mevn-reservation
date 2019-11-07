@@ -6,7 +6,7 @@
 .hero {
   height: 300px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/img/banner/hero-01.jpeg") no-repeat center center;
+    url("../assets/img/banner/hero-01.jpeg") no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;

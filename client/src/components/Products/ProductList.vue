@@ -146,6 +146,7 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   data() {
     return {
@@ -170,7 +171,7 @@ export default {
   },
   methods: {
     loadProducts() {
-      axios.get("api/items").then(({ data }) => {
+      axios.get("api/products").then(({ data }) => {
         this.products = data.data;
         this.items = data.data;
         this.loadFilter(data.data);

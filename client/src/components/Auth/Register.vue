@@ -90,7 +90,7 @@ export default {
         .then(res => {
           $("#register").modal("hide");
           localStorage.setItem("usertoken", res.data);
-          this.$router.push({ name: "ProfileUser" });
+          this.$router.push({ name: "Profile" });
         })
         .catch(err => {
           console.log(err);

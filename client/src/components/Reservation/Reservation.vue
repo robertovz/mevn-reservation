@@ -113,6 +113,7 @@
 
 <script>
 import HotelDatePicker from "vue-hotel-datepicker";
+import axios from "axios";
 export default {
   components: {
     HotelDatePicker

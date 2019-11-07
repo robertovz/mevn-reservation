@@ -156,7 +156,7 @@
     </div>
     <hr class="divider my-5" />
 
-    <productsCategory :category="''" :text="'Featured'" />
+    <!-- <productsCategory :category="''" :text="'Featured'" /> -->
 
     <hr class="divider my-5" />
 
@@ -176,11 +176,11 @@
 
     <hr class="divider my-5" />
 
-    <productsCategory :category="''" :text="'Double'" />
+    <!-- <productsCategory :category="''" :text="'Double'" /> -->
 
     <hr class="divider my-5" />
 
-    <productsCategory :category="''" :text="'Triple'" />
+    <!-- <productsCategory :category="''" :text="'Triple'" /> -->
 
     <miniList />
     <compare />
@@ -253,15 +253,15 @@ export default {
 }
 .slide-01 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/img/banner/banner-02.jpg") no-repeat center center;
+    url("../assets/img/banner/banner-02.jpg") no-repeat center center;
 }
 .slide-02 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/img/banner/banner-03.jpg") no-repeat center center;
+    url("../assets/img/banner/banner-03.jpg") no-repeat center center;
 }
 .slide-03 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/img/banner/banner-06.jpg") no-repeat center center;
+    url("../assets/img/banner/banner-06.jpg") no-repeat center center;
 }
 .slide-01,
 .slide-02,
@@ -386,15 +386,15 @@ export default {
 // Category
 .category-wrapper.category-01 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/img/banner/banner01.jpeg") center/cover no-repeat;
+    url("../assets/img/banner/banner01.jpeg") center/cover no-repeat;
 }
 .category-wrapper.category-02 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/img/banner/banner02.jpeg") center/cover no-repeat;
+    url("../assets/img/banner/banner02.jpeg") center/cover no-repeat;
 }
 .category-wrapper.category-03 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/img//banner/banner03.jpeg") no-repeat center center;
+    url("../assets/img//banner/banner03.jpeg") no-repeat center center;
   background-size: cover;
 }
 @media only screen and(max-width: 768px) {
@@ -434,7 +434,7 @@ export default {
 .hero-wrapper {
   height: 270px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/img/banner/banner-01.jpg") no-repeat center center;
+    url("../assets/img/banner/banner-01.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;

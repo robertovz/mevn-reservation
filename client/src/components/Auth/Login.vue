@@ -70,7 +70,7 @@ export default {
         .then(res => {
           localStorage.setItem("usertoken", res.data);
 
-          this.$router.push({ name: "ProfileUser" });
+          this.$router.push({ name: "Profile" });
 
           Fire.$emit("logged-in", "loggedIn");
 

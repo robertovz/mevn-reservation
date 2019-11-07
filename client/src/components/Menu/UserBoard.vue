@@ -37,15 +37,23 @@
 </template>
 
 <script>
+import axios from "axios";
+import jwtDecode from "jwt-decode";
 export default {
   data() {
+    const token = localStorage.usertoken;
+    const decoded = jwtDecode(token);
     return {
+      auth: "",
+      id: decoded.id,
+      user: localStorage.usertoken,
       reservations: {}
     };
   },
   created() {
+    console.log(this.user);
     axios
-      .get(`api/users/${this.$gate.userId()}/reservations`)
+      .get(`api/users/${this.id}/reservations`)
       .then(({ data }) => (this.reservations = data));
   }
 };

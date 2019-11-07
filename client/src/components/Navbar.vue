@@ -71,6 +71,7 @@
 
 <script>
 import jwtDecode from "jwt-decode";
+import axios from "axios";
 export default {
   components: {},
   data() {
@@ -98,18 +99,8 @@ export default {
       }
     },
     logout() {
-      axios
-        .post("logout")
-        .then(response => {
-          if (response.status === 302 || 401) {
-            console.log("logout");
-            this.$router.push("/");
-            this.$router.go();
-          } else {
-            // throw error and go to catch block
-          }
-        })
-        .catch(error => {});
+      localStorage.removeItem("usertoken");
+      this.$router.go();
     }
   },
   created() {

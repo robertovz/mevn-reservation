@@ -56,7 +56,7 @@
             </div>
           </div>
           <div class="mt-2 mb-3 ml-5 text-left">
-            <span>Showing {{products.length}} results.</span>
+            <span>Showing  results.</span>
           </div>
         </div>
       </div>

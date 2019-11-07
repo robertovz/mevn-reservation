@@ -18,7 +18,7 @@
         <div class="modal-body">
           <carousel :perPageCustom="[[0,1],[780,2],[1200,4]]" :autoplay="false" :paginationEnabled="false" :navigation-enabled="true"
           :min-swipe-distance="1" :navigation-next-label="navigationNext" :navigation-prev-label="navigationPrev">
-            <slide class="slide p-2 modal-list_slide" v-for="item in this.$store.state.compare" :key="item.id">
+            <slide class="slide p-2 modal-list_slide" v-for="item in this.$store.state.compareItems" :key="item.id">
               <div class="card">
               <img :src="'img/products/' + item.image" class="card-img-top" alt="..." width="250px">
                 <div class="card-body">
@@ -38,7 +38,7 @@
         </div>
         <div class="modal-footer">
           <button
-            :disabled="(this.$store.state.compare.length == 0)"
+            :disabled="(this.$store.state.compareItems.length == 0)"
             data-dismiss="modal" aria-label="Close"
             class="btn btn-dark"
             style="width: 20%"
