@@ -1,0 +1,73 @@
+$body-bg: #f8fafc;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$white: #fff;
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffc107;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+.pink {
+    color:#f66D9b; 
+}
+.black {
+    color: #333;
+}
+.white {
+    color: #fff!important;
+}
+.blue {
+    color: #1b81d6; 
+}
+.indigo {
+    color:#6574cd; 
+}
+.purple {
+    color:#9561e2; 
+}
+.red {
+    color:#e3342f; 
+}
+.orange {
+    color:#f6993f; 
+}
+.yellow {
+    color:#ffc107; 
+}
+.green {
+    color:#38c172; 
+}
+.teal {
+    color:#4dc0b5; 
+}
+.cyan  {
+    color:#6cb2eb; 
+}
+
+.bwhite {
+    background: #fff;
+    box-shadow: 0 2px 3px #fff;
+}
+
+.bblue {
+    background: #1b81d6;
+    box-shadow: 0 2px 3px #1b81d6;
+}
+
+.bgreen {
+    background:#38c172; 
+    box-shadow: 0 2px 3px #38c172; 
+}
+
+.bred {
+    background: #e3342f;
+    box-shadow: 0 2px 3px #e3342f;
+}
